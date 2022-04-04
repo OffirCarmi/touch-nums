@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Nums</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="boardArea">
+        <h1>Touch Nums</h1>
+        <h2>Choose level:</h2>
+        <div class="level" onclick="init(4,this)"> Easy (4X4)</div>
+        <div class="level" onclick="init(5,this)"> Hard (5X5)</div>
+        <div class="level" onclick="init(6,this)"> Extreme (6X6)</div>
+        <div class='timer'></div>
+        <table border="0" cellpadding="10">
+            <tbody class="board"></tbody>
+        </table>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
